@@ -42,7 +42,7 @@ test('MyComponent is not included', (t) => {
   renderer.render(<MyComponent color="blue" />);
   const result = renderer.getRenderOutput();
 
-  t.jsxIncludes(result, <div><div><div className="circle color-red"></div></div></div>);
+  t.jsxNotIncludes(result, <div><div><div className="circle color-red"></div></div></div>);
   t.end();
 });
 ```
