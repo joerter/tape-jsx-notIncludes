@@ -1,6 +1,6 @@
 {
   "name": "tape-jsx-notincludes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "tape extension to assert one jsx string does not include another",
   "main": "dist/index.js",
   "scripts": {
